@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body-text {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(255, 0, 0);
+  opacity: 70%;
+  
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nav-links li {
+  list-style: none;
+}
+.navbarss {
+  
+  color: white;
+  letter-spacing: 0px;
+  font-size: 20px;
+}
+.nav-links {
+
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active) {
+  background-color: transparent;
+}
+.nav-links li a.active {
+  background-color: transparent;
+}
+nav ul li a {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+form {
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  opacity: 85%;
+}
+
+.footer li a {
+  color: rgb(255, 255, 255);
+}
+
+.footer ul li a {
+  color: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+}
+
+.jumbotron {
+  font-family: 'Caveat', cursive;
+  background-image: url('https://st3.depositphotos.com/13324256/i/600/depositphotos_169530530-stock-photo-yellow-wallpaper-texture.jpg');
+}
+body {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
+  background-color: papayawhip;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+}
+
+
+header {
+  background-color: orange;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: blue;
+  text-decoration: none;
+}
